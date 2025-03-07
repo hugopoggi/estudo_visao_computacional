@@ -1,7 +1,7 @@
 import cv2 as cv
 
 img = cv.imread('piramide.jpg')
-img = cv.resize(img, (400, 300))
+img = cv.resize(img, (500, 400))
 imgCinza = cv.cvtColor(img, cv.COLOR_RGB2GRAY)
 
 ## Morfologia gaussian BLUR para borrar img
